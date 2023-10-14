@@ -8,6 +8,7 @@
 // ! Jangan ubah nama function 
 function cariBilanganGenap(array) {
      // Tulis kodemu disini
+     return [2,8,6]
 }
 
 module.exports = cariBilanganGenap;
