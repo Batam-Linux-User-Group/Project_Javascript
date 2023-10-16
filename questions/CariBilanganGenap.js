@@ -5,9 +5,10 @@
  * Output: [2, 8, 6]
  */
 
-// ! Jangan ubah nama function 
+// ! Jangan ubah nama function
 function cariBilanganGenap(array) {
-     // Tulis kodemu disini
+  // Tulis kodemu disini
+  return array.filter((number) => number % 2 === 0);
 }
 
 module.exports = cariBilanganGenap;

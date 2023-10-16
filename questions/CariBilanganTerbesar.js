@@ -5,9 +5,24 @@
  * Output: 10
  */
 
-// ! Jangan ubah nama function 
+// ! Jangan ubah nama function
 function cariBilanganTerbesar(array) {
-    // Tulis kodemu disini
+  // Tulis kodemu disini
+
+  // Mengembalikan null jika arraynya kosong
+  if (array.length === 0) {
+    return null;
+  }
+
+  let angkaTerbesar = array[0];
+
+  for (let i = 1; i < array.length; i++) {
+    if (array[i] > angkaTerbesar) {
+      angkaTerbesar = array[i];
+    }
+  }
+
+  return angkaTerbesar;
 }
 
 module.exports = cariBilanganTerbesar;
